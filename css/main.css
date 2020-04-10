@@ -19,10 +19,6 @@
   display: flex;
   justify-content: center;
 }
-.justify-flex-end {
-  display: flex;
-  justify-content: flex-end;
-}
 
 
 /*--------------------------- Color variations ----------------------*/
