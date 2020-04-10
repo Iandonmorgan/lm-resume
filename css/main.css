@@ -11,6 +11,14 @@
 .notBold {
   font-weight: normal;
 }
+.right-bottom-justfied {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+}
 
 
 /*--------------------------- Color variations ----------------------*/
@@ -2346,7 +2354,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 1px;
 }
 
-.project-area {
+.project-area, .contact-area {
   background-color: #f9f9ff;
 }
 
@@ -2434,6 +2442,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer-area {
   padding-top: 100px;
   background-color: #222222;
+  text-align: center;
 }
 
 h6 {
@@ -2448,7 +2457,7 @@ h6 {
 }
 
 .footer-social a {
-  padding-right: 25px;
+  padding: 0 12px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2465,13 +2474,14 @@ h6 {
 
 @media (max-width: 991px) {
   .footer-social {
-    text-align: left;
+    text-align: center;
   }
 }
 
 .single-footer-widget input {
   border: none;
   width: 80%;
+  text-align: center;
   font-weight: 300;
   background: #191919;
   color: #777;
